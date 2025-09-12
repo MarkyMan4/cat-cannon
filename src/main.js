@@ -1,7 +1,12 @@
-import { engineInit } from "littlejsengine";
+import { engineInit, EngineObject, vec2 } from "littlejsengine";
+import { Player } from "./gameObjects";
+
+let player;
 
 ///////////////////////////////////////////////////////////////////////////////
 function gameInit() {
+
+    player = new Player(vec2(0, 0), vec2(1, 1));
 }
 
 ///////////////////////////////////////////////////////////////////////////////
