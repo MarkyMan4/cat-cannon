@@ -10,8 +10,5 @@
   },
   "devDependencies": {
     "vite": "^7.1.2"
-  },
-  "dependencies": {
-    "littlejsengine": "1.11.10"
   }
 }
